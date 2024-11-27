@@ -1,4 +1,4 @@
-import S from './QueroDoar.module.scss'
+import S from './queroDoar.module.scss'
 import livro from '../../assets/livro.png'
 
 
