@@ -49,8 +49,29 @@ header{
         color: white;
         font-size: 15px;
         padding-left: 6px;
+        width: 12vw;
         &::placeholder{
             color:white;
+        }
+    }
+}
+
+@media(max-width:1170px){
+    .boxLogo{
+        border:solid 2px red;
+        width: 25vw;
+        h1{
+            font-size: 2vw;
+        }
+        img{
+            width: 5vw;
+        }
+    }
+    .boxInput{
+        input{
+            &::placeholder{
+                font-size: 1vw;
+            }
         }
     }
 
