@@ -26,3 +26,32 @@
         justify-content: space-evenly;
     }
 }
+
+@media(max-width: 1260px){
+    .boxDoados{
+       // border: solid 2px red;        
+    }
+
+    .boxBooks{
+       // border: solid 2px orangered;
+        article{
+            width: 180px;
+            height: 210px;
+        }
+    }
+}
+
+@media(max-width: 520px){
+
+    .boxBooks{
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+    }
+    .boxDoados{
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+}
